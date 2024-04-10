@@ -2,7 +2,13 @@
 
 ![image](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Tmux_logo.svg/2560px-Tmux_logo.svg.png)
 
-## Installation
+## :page_facing_up: What is tmux?
+
+Tmux stands for "Terminal MUltipleXer". In other words, it means that you can run a Tmux session and then open multiple windows inside that session. Each window can be split into rectangular panes.
+
+---
+
+## :wrench: Installation
 
 - Debian based
 
@@ -13,10 +19,18 @@ sudo apt install tmux
 - RedHat based
 ```
 sudo yum install tmux
+
+sudo dnf install tmux
 ```
+
+- macOS
+```
+brew install tmux
+```
+
 ---
 
-## Starting
+## :running: Starting
 Run tmux by typing in your terminal:
 
 `tmux`
@@ -24,8 +38,8 @@ Run tmux by typing in your terminal:
 ---
 
 
-## Commands
->Usually tmux commands start with **Ctrl-b** prefix :smiley:
+## :smiley: Commands
+> :warning: Usually tmux commands start with **Ctrl-b** prefix :blush:
 
 | Key | Action |
 | :-  | :-  |
@@ -46,3 +60,44 @@ Ctrl-b + , | Rename window |
 Ctrl-b + { | Move the current pane left |
 Ctrl-b + } | Move the current pane right |
 Ctrl-b + PageUp or PageDown | Scrolling in a pane |
+
+---
+
+## :sunglasses: Advanced Commands
+Create session:
+```
+tmux new -s amirmohammad
+```
+
+Attaching to a session:
+```
+tmux att -t amirmohammad
+```
+
+Detach from session:
+```
+Ctrl-b + d
+```
+
+List session:
+```
+tmux ls
+```
+
+Delete a session:
+```
+tmux kill-window -t amirmohammad
+```
+
+---
+
+## :telephone_receiver: Contact
+
+- Amir mohammad Rezvaninia - [LinkedIn](https://www.linkedin.com/in/amirmohammadrezvaninia/) 
+
+- Email Address: amirmohammadrezvaninia@gmail.com
+
+---
+
+## :man_technologist: Support project	
+If you like the content, give it a :star: :wink:
