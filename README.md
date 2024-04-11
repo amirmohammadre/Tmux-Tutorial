@@ -60,16 +60,17 @@ Ctrl-b + , | Rename window |
 Ctrl-b + { | Move the current pane left |
 Ctrl-b + } | Move the current pane right |
 Ctrl-b + PageUp or PageDown | Scrolling in a pane |
+exit | Quit current pane |
 
 ---
 
 ## :sunglasses: Advanced Commands
-Create session:
+Create session with name ***amirmohammad***:
 ```
 tmux new -s amirmohammad
 ```
 
-Attaching to a session:
+Attaching to session ***amirmohammad***:
 ```
 tmux att -t amirmohammad
 ```
@@ -84,9 +85,21 @@ List session:
 tmux ls
 ```
 
-Delete a session:
+Delete session ***amirmohammad***:
 ```
 tmux kill-window -t amirmohammad
+```
+
+---
+
+### Send a command to all panes in tmux:
+
+```
+1. Ctrl-b :
+
+2. setw synchronize-panes on
+
+3. setw synchronize-panes off
 ```
 
 ---
@@ -99,5 +112,5 @@ tmux kill-window -t amirmohammad
 
 ---
 
-## :man_technologist: Support project	
+## :man_technologist: Support content	
 If you like the content, give it a :star: :wink:
