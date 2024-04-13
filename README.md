@@ -2,6 +2,19 @@
 
 ![image](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Tmux_logo.svg/2560px-Tmux_logo.svg.png)
 
+
+## Table of Contents
+
+- [What is tmux?](#What-is-tmux?)
+- [Installation](#Installation)
+- [Starting](#Starting)
+- [Commands](#Commands)
+- [Advanced Commands](#Advanced-Commands)
+- [Contact](#Contact)
+- [Support content](#Support-content)
+
+---
+
 ## :page_facing_up: What is tmux?
 
 Tmux stands for "Terminal MUltipleXer". In other words, it means that you can run a Tmux session and then open multiple windows inside that session. Each window can be split into rectangular panes.
