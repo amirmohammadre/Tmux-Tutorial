@@ -60,7 +60,7 @@ Ctrl-b + , | Rename window |
 Ctrl-b + { | Move the current pane left |
 Ctrl-b + } | Move the current pane right |
 Ctrl-b + PageUp or PageDown | Scrolling in a pane |
-exit | Quit current pane |
+exit or Ctrl-d | Quit current pane |
 
 ---
 
