@@ -15,7 +15,7 @@
 
 ---
 
-## :page_facing_up: What is tmux?
+## What is tmux?
 
 Tmux stands for "Terminal MUltipleXer". In other words, it means that you can run a Tmux session and then open multiple windows inside that session. Each window can be split into rectangular panes.
 
