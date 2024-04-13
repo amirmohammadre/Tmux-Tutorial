@@ -5,13 +5,13 @@
 
 ## Table of Contents
 
-- [What is tmux?](#What-is-tmux?)
-- [Installation](#Installation)
-- [Starting](#Starting)
-- [Commands](#Commands)
-- [Advanced Commands](#Advanced-Commands)
-- [Contact](#Contact)
-- [Support content](#Support-content)
+- [What is tmux?](#user-content-page_facing_up-what-is-tmux)
+- [Installation](#user-content-wrench-installation)
+- [Starting](#user-content-running-starting)
+- [Commands](#user-content-smiley-commands)
+- [Advanced Commands](#user-content-sunglasses-advanced-commands)
+- [Contact](#user-content-telephone_receiver-contact)
+- [Support content](#user-content-man_technologist-support-content)
 
 ---
 
